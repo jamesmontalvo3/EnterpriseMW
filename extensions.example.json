@@ -1,0 +1,216 @@
+{
+	"Validator" : {
+		"origin" : "https://github.com/JeroenDeDauw/Validator.git",
+		"checkout" : "tags/0.5"
+	},
+	"SemanticMediaWiki" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/SemanticMediaWiki",
+		"checkout" : "tags/1.8.0.5",
+		"callback" : "JSCMOD_Extensions::SMW_Setup"
+	},
+	"AdminLinks" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/AdminLinks",
+		"checkout" : "master"
+	},
+	"ApprovedRevs" : {
+		"origin" : "https://github.com/jamesmontalvo3/MediaWiki-ApprovedRevs",
+		"checkout" : "master"	
+	},
+	"Arrays" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/Arrays",
+		"checkout" : "master"
+	},
+	"BatchUserRights" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/BatchUserRights",
+		"checkout" : "master"
+	},
+	"CharInsert" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/CharInsert",
+		"checkout" : "master"
+	},
+	"Cite" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/Cite",
+		"checkout" : "master"
+	},
+	"Collection" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/Collection",
+		"checkout" : "master",
+		"enable" : false
+	},
+	"ConfirmEdit" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/ConfirmEdit",
+		"checkout" : "master",
+		"enable" : false
+	},
+	"CopyWatchers" : {
+		"origin" : "https://github.com/jamesmontalvo3/MediaWiki-CopyWatchers.git",
+		"checkout" : "master"
+	},
+	"DismissableSiteNotice" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/DismissableSiteNotice",
+		"checkout" : "master"
+	},
+	"EditUser" : {
+		"origin" : "https://github.com/jamesmontalvo3/MediaWiki-EditUser.git",
+		"checkout" : "master",
+		"enable" : false
+	},
+	"ExternalData" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/ExternalData",
+		"checkout" : "master"
+	},
+	"Gadgets" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/Gadgets",
+		"checkout" : "master",
+		"enable" : false
+	},
+	"HeaderFooter" : {
+		"origin" : "https://github.com/jamesmontalvo3/MediaWiki-HeaderFooter.git",
+		"checkout" : "master"
+	},
+	"HeaderTabs" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/HeaderTabs",
+		"checkout" : "master"
+	},
+	"ImageMap" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/ImageMap",
+		"checkout" : "master",
+		"enable" : false
+	},
+	"ImportUsers" : {
+		"origin" : "https://github.com/jamesmontalvo3/MediaWiki-ImportUsers.git",
+		"checkout" : "master"
+	},
+	"InputBox" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/InputBox",
+		"checkout" : "master"
+	},
+	"DynamicPageList" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/intersection",
+		"checkout" : "master"
+	},
+	"Interwiki" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/Interwiki",
+		"checkout" : "master"
+	},
+	"LabeledSectionTransclusion" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/LabeledSectionTransclusion",
+		"checkout" : "master"
+	},
+	"LocalisationUpdate" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/LocalisationUpdate",
+		"checkout" : "master",
+		"enable" : false
+	},
+	"Maps" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/Maps",
+		"checkout" : "master",
+		"enable" : false
+	},
+	"Nuke" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/Nuke",
+		"checkout" : "master",
+		"enable" : false
+	},
+	"PageTriage" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/PageTriage",
+		"checkout" : "master",
+		"enable" : "dev"
+	},
+	"ParserFunctions" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/ParserFunctions",
+		"checkout" : "master"
+	},
+	"PdfExport" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/PdfExport",
+		"checkout" : "master",
+		"enable" : false
+	},
+	"PipeEscape" : {
+		"origin" : "https://github.com/jamesmontalvo3/MediaWiki-PipeEscape.git",
+		"checkout" : "master"
+	},
+	"Poem" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/Poem",
+		"checkout" : "master",
+		"enable" : false
+	},
+	"RABCG" : {
+		"origin" : "https://github.com/jamesmontalvo3/MediaWiki-RABCG.git",
+		"checkout" : "master"
+	},
+	"Renameuser" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/Renameuser",
+		"checkout" : "master",
+		"enable" : false
+	},
+	"ReplaceText" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/ReplaceText",
+		"checkout" : "master"
+	},
+	"Scribunto" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/Scribunto",
+		"checkout" : "master",
+		"enable" : false
+	},
+	"SemanticCompoundQueries" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/SemanticCompoundQueries",
+		"checkout" : "master"
+	},
+	"SemanticForms" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/SemanticForms",
+		"checkout" : "master"
+	},
+	"SemanticInternalObjects" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/SemanticInternalObjects",
+		"checkout" : "master"
+	},
+	"SemanticResultFormats" : {
+		"origin" : "https://github.com/SemanticMediaWiki/SemanticResultFormats.git",
+		"checkout" : "tags/1.8"
+	},
+	"SpamBlacklist" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/SpamBlacklist",
+		"checkout" : "master",
+		"enable" : false
+	},
+	"StringFunctionsEscaped" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/StringFunctionsEscaped",
+		"checkout" : "master"
+	},
+	"SyntaxHighlight_GeSHi" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/SyntaxHighlight_GeSHi",
+		"checkout" : "master"
+	},
+	"TalkRight" : {
+		"origin" : "https://github.com/jamesmontalvo3/MediaWiki-TalkRight.git",
+		"checkout" : "master"
+	},
+	"TitleBlacklist" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/TitleBlacklist",
+		"checkout" : "master",
+		"enable" : false
+	},
+	"TitleKey" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/TitleKey",
+		"checkout" : "master"
+	},
+	"UploadWizard" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/UploadWizard",
+		"checkout" : "master",
+		"enable" : "dev",
+		"callback" : "JSCMOD_Extensions::UploadWizard_Setup"
+	},
+	"WhoIsWatching" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/WhoIsWatching",
+		"checkout" : "master"
+	},
+	"WikiEditor" : {
+		"origin" : "https://gerrit.wikimedia.org/r/mediawiki/extensions/WikiEditor",
+		"checkout" : "master"
+	},
+	"Wiretap" : {
+		"origin" : "https://github.com/jamesmontalvo3/MediaWiki-Wiretap.git",
+		"checkout" : "master"
+	}
+}
